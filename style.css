@@ -197,7 +197,7 @@ section.first>div :nth-child(2) {
 }
 
 .faqbox {
-  transition: all 1s ease-out;
+  transition: all 0.5s ease-out;
   font-size: 24px;
   display: flex;
   justify-content: space-between;
@@ -235,6 +235,56 @@ footer .questions {
   flex-direction: column;
   gap: 23px;
 }
+
+@media screen and (max-width: 1085px) {
+
+    nav{
+        max-width: 90vw;
+    }
+   .first{
+    flex-wrap: wrap;
+   }
+
+   .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    gap: 25px;
+   }
+
+   .secImg img{
+     width: 300px;
+   }
+
+   .secImg video{
+     width: 300px;
+   }
+   .hero> :nth-child(1){
+     font-size: 34px;
+   }
+   .hero> :nth-child(2){
+    font-size: 18px;
+  }
+  .hero> :nth-child(3){
+    font-size: 18px;
+  }
+  .hero-buttons{
+    display: flex;
+    flex-direction: column;
+  }
+  .faq h2{
+    font-size: 30px;
+  }
+
+  footer{
+    max-width: 90vw;
+  }
+  .footer-item
+  {
+    align-items: center;
+
+}
+  
 
 
 
